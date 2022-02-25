@@ -1,0 +1,19 @@
+# Imprimindo mensagem
+print("Brasil ganhou 5 copas do mundo")
+
+# Utilizando separador (sep='')
+print("Brasil", "ganhou", "5", "copas", "do", "mundo", sep=' ')
+
+print("Brasil", "ganhou", "5", "copas", "do", "mundo", sep='-')
+
+print("Brasil", "ganhou", "5", "copas", "do", "mundo", sep='!')
+
+
+# Utilizando variaveis
+pais = "Brasil"
+valor = 5
+print(pais, "ganhou", valor, "copas do mundo")
+
+pais = "Italia"
+valor = 4
+print(pais, "ganhou", valor, "copas do mundo")
