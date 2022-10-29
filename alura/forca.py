@@ -27,6 +27,7 @@ def jogar():
             erros += 1
     
         acertou  = "_" not in letras_acertadas
+        enforcou = erros == 6
         print(letras_acertadas)
 
         if (erros == 6):
